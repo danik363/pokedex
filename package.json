@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/danik363/pokedex/issues"
   },
-  "homepage": "https://github.com/danik363/pokedex#readme"
+  "homepage": "https://github.com/danik363/pokedex#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.10"
+  }
 }
