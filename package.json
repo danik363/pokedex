@@ -1,0 +1,20 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danik363/pokedex.git"
+  },
+  "keywords": [],
+  "author": "Daniel Sucno <daniksucno363@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danik363/pokedex/issues"
+  },
+  "homepage": "https://github.com/danik363/pokedex#readme"
+}
