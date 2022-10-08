@@ -1,8 +1,14 @@
-// import fetch from "node-fetch";
 const API = 'https://pokeapi.co/api/v2';
 
-
+const math = Math.random();
 const cardContainer = document.getElementById('pokemon-card-container');
+
+
+
+
+const getRandomId = (min, max) => {
+    return Math.floor((Math.random() * (max - min)) + min);
+}
 
 async function fetchData(urlApi, id){
     try{
@@ -17,7 +23,8 @@ async function fetchData(urlApi, id){
 
 
 (async function(){
-    const pokemon = await fetchData(API, 6);
+    const ramdonId = getRandomId(1, 890);
+    const pokemon = await fetchData(API, ramdonId);
 
     const templatePokemon = ` 
         <article>
